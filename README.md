@@ -1,6 +1,6 @@
 # Introduction
 
-To help customers secure their IoT Solution from exposure to the Public internet, Azure IoT Hub support the **virtual network** (VNET pattern).
+To help customers secure their IoT Solution from exposure to the Public internet, Azure IoT Hub supports the **Virtual Networks** (VNET pattern).
 
 For ingress traffic, the configuration of Azure **Private Link** allows data to flow from IPv4 private addressing networks through Express Route or VPN; it also blocks all other data from Public Internet.
 
@@ -11,9 +11,10 @@ In this document , we will configure an environment where IoT devices and IoT ma
 - Private IP addresses only
 - Jump box scenario
 
-The setup can be applied for demo, POC or deployment.
+The setup proposed in this Repos can be applied for demo, POC or deployment.
 
 For more details on **IoT Hub support for virtual networks with Private Link and Managed Identity**,  you can read the Microsoft Documentation : [Azure IoT Hub support for virtual networks | Microsoft Docs](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
+
 
 # General Setup
 As a short explanation, you can see in the diagram bellow how applications interact with IoT hub.
