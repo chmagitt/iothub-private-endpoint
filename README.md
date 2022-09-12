@@ -1,6 +1,6 @@
 # Introduction
 
-To help customers secure their IoT Solution from exposure to the Public internet, Azure IoT Hub support the **virtual network** (VNET pattern) .
+To help customers secure their IoT Solution from exposure to the Public internet, Azure IoT Hub support the **virtual network** (VNET pattern).
 
 For ingress traffic, the configuration of Azure **Private Link** allows data to flow from IPv4 private addressing networks through Express Route or VPN; it also blocks all other data from Public Internet.
 
@@ -17,6 +17,8 @@ For more details on **IoT Hub support for virtual networks with Private Link and
 
 # General Setup
 As a short explanation, you can see in the diagram bellow how applications interact with IoT hub.
+
+<img width="823" alt="private-endpoint-intro" src="https://user-images.githubusercontent.com/26851738/189710758-d078270a-5215-4ab8-b649-f45376c899d9.png">
 
 - IoT devices with embedded applications communicate with IoT Hub using MQTT or AMQP protocols
 > Devices send telemetry and give information of their status to the Cloud and they receive messages & commands from the Cloud. IoT devices generally rely on Azure IoT Device SDK to secure communications and execute IoT Hub features set.
