@@ -19,7 +19,7 @@ Install Azure IoT in your subscription.<br>
 Follow the Quick Start in Azure Documentation for [IoT Hub Creation](https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-send-telemetry-iot-hub)
 
 ## Node JS device simulation
-This application on the Laptop will be white listed, then blocked  then  connected through the VPN gateway. <br>
+This application on the Laptop will be white listed, then blocked  then  connected through the VPN gateway to IoT Hub. <br>
 You need to install [NodeJs](https://nodejs.org/en/download/). <br>
 Follow the Quick Start in Azure Documentation to [Send telemetry to IoT Hub](https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-send-telemetry-iot-hub?pivots=programming-language-nodejs)
 
