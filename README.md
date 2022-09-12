@@ -32,6 +32,6 @@ As a short explanation, you can see in the diagram bellow how applications inter
 
 Both IoT devices and IoT device Management Applications can connect to IoT Hub through a Public or Private Network.
 
-- Public Network: in red, this is the legacy way to connect to IoT Hub through its public endpoint ; there is also an option to filter a whitelist of IP source address for access restriction.
+- **Public Network**: in red, this is the legacy way to connect to IoT Hub through its public endpoint ; there is also an option to filter a whitelist of IP source address for access restriction.
 
-- Private Network: in blue, it provides a set of technologies to connect to a VNET (Express route, VPN gateway, ..) and then connect to IoT Hub through its Private Endpoint. This blocks all the connections from Internet for a higher level of security. We will also see later the role of “Jump box” to remotely configure IoT Hub.
+- **Private Network**: in blue, it provides a set of technologies to connect to a VNET (Express route, VPN gateway, ..) and then connect to IoT Hub through its Private Endpoint. This blocks all the connections from Internet for a higher level of security. We will also see later the role of “Jump box” to remotely configure IoT Hub.
