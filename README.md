@@ -39,6 +39,6 @@ Both IoT devices and IoT device Management Applications can connect to IoT Hub t
 # Setup and Scenarios
 In the document, youwill be able to cover the following secnarios
 - General Setup [Step1](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/setup.md).
-- Filter Ip Source addresses
-- Allow only Private Network with a VPN Gateway
-- Connect through a Jump Box
+- Filter Ip Source addresses [Step2]
+- Allow only Private Network with a VPN Gateway [Step3]
+- Connect through a Jump Box [Step4]
