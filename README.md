@@ -16,7 +16,7 @@ The setup proposed in this Repos can be applied for demo, POC or deployment.
 For more details on **IoT Hub support for virtual networks with Private Link and Managed Identity**,  you can read the Microsoft Documentation : [Azure IoT Hub support for virtual networks | Microsoft Docs](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
 
 
-# General Setup
+# Network Connectivity Overview
 As a short explanation, you can see in the diagram bellow how applications interact with IoT hub.
 
 <img width="823" alt="private-endpoint-intro" src="https://user-images.githubusercontent.com/26851738/189710758-d078270a-5215-4ab8-b649-f45376c899d9.png">
@@ -35,3 +35,10 @@ Both IoT devices and IoT device Management Applications can connect to IoT Hub t
 - **Public Network**: in red, this is the legacy way to connect to IoT Hub through its public endpoint ; there is also an option to filter a whitelist of IP source address for access restriction.
 
 - **Private Network**: in blue, it provides a set of technologies to connect to a VNET (Express route, VPN gateway, ..) and then connect to IoT Hub through its Private Endpoint. This blocks all the connections from Internet for a higher level of security. We will also see later the role of “Jump box” to remotely configure IoT Hub.
+
+# Setup and Scenarios
+In the document, youwill be able to cover the following secnarios
+- General Setup [link](http://example.com).
+- Filter Ip Source addresses
+- Allow only Private Network with a VPN Gateway
+- Connect through a Jump Box
