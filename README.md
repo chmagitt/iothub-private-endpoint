@@ -20,13 +20,13 @@ As a short explanation, you can see in the diagram bellow how applications inter
 
 <img width="823" alt="private-endpoint-intro" src="https://user-images.githubusercontent.com/26851738/189710758-d078270a-5215-4ab8-b649-f45376c899d9.png">
 
-- IoT devices with embedded applications communicate with IoT Hub using MQTT or AMQP protocols
+- **IoT devices** with embedded applications communicate with IoT Hub using MQTT or AMQP protocols
 > Devices send telemetry and give information of their status to the Cloud and they receive messages & commands from the Cloud. IoT devices generally rely on Azure IoT Device SDK to secure communications and execute IoT Hub features set.
 
-- IoT devices management applications communicate with IoT Hub using the rest APIs 
+- **IoT devices management applications** communicate with IoT Hub using the rest APIs 
 > in order to configure the device registry and interact with these devices through device twins, methods and messages. These applications generally rely on Azure IoT Service SDK.
 
-- Azure IoT Hub management applications communicate with Azure Resource Manager using the Rest APIs
+- **Azure IoT Hub management applications** communicate with Azure Resource Manager using the Rest APIs
 > This can be Azure Portal, CLI, PS Scripts, Arm templates, DevOps tools, … This allows end-users to configure all Azure IoT Hub features not related to Device Management like Networking, message routing and enrichment, failover, metrics.
 
 Both IoT devices and IoT device Management Applications can connect to IoT Hub through a Public or Private Network.
