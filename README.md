@@ -21,6 +21,7 @@ As a short explanation, you can see in the diagram bellow how applications inter
 
 <img width="823" alt="private-endpoint-intro" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Intro1.png">
 
+Several applications can communicate with Azure IoT hub: 
 - **IoT devices** with embedded applications communicate with IoT Hub using MQTT or AMQP protocols
 > Devices send telemetry and give information of their status to the Cloud and they receive messages & commands from the Cloud. IoT devices generally rely on Azure IoT Device SDK to secure communications and execute IoT Hub features set.
 
@@ -29,7 +30,8 @@ As a short explanation, you can see in the diagram bellow how applications inter
 
 - **Azure IoT Hub management applications** communicate with Azure Resource Manager using the Rest APIs
 > This can be Azure Portal, CLI, PS Scripts, Arm templates, DevOps tools, … This allows end-users to configure all Azure IoT Hub features not related to Device Management like Networking, message routing and enrichment, failover, metrics.
-
+<br>
+<br>
 Both IoT devices and IoT device Management Applications can connect to IoT Hub through a Public or Private Network.
 
 - **Public Network**: in red, this is the legacy way to connect to IoT Hub through its public endpoint ; there is also an option to filter a whitelist of IP source address for access restriction.
