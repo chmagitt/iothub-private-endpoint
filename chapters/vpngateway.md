@@ -1,11 +1,11 @@
-## Establish a VPN tunnel between a Laptop and Azure
-
+#Step 5: Connection to IoT Hub from a VPN gateway
 <img width="700" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
 <img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
 <br>
 <img width="700" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
 <br>
+
 <img width="300" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
 <br>
 <img width="300" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
