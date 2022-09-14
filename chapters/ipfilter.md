@@ -16,7 +16,7 @@ This configuration is at IoT Hub level
 In order restrict the access to Iot Hub  you can allow only some devices or some application<br>
 In this example, the Raspverry Pi online will be blocked<br>
 <br> 
-<img width="800" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
+<img width="900" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
 <br> 
 For this configuration, you need to stay on "Networking" menu of IoT Hub
 
