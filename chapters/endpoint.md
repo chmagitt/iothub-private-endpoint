@@ -19,12 +19,14 @@ At the same time, it is still possible for the Laptop to configure IoT Hub via A
 <img width="700" alt="endpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
 <br> 
 This will trigger the configuration of Private endpoint in 6 Steps
+
 - choose a name for the Endpoint, it proposes a name for the Network Interface
 - target sub-resource is iot-hub
 - choose the **same Virtual Network as your W10 VM** which will play the role of Jump Box
 - the two DNS name will be the new FQDN of IoT Hub and egress Service Bus in the VNET
 - check your configuration and "Create"
 <br> 
+
 <img width="500" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
 <br> 
 <img width="500" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
