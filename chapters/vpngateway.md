@@ -18,6 +18,7 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 - Generation: Gen2
 - Virtual network must be the **same Vnet as IoT Hub Private Endpoint**
 - "Create"
+It can take time for provisioning<br>
 
 #Configure the security credentials of the VPN gateway
 
