@@ -1,4 +1,4 @@
-## IoT Hub - IP Filtering
+## Configure IP Filtering in IoT hub
 
 <img width="700" alt="private-endpoint-ipfilter" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
 
