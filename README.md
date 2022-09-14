@@ -16,7 +16,7 @@ The setup proposed in this Repos can be applied for demo, POC or deployment.
 For more details on **IoT Hub support for virtual networks with Private Link and Managed Identity**,  you can read the Microsoft Documentation : [Azure IoT Hub support for virtual networks | Microsoft Docs](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
 
 
-# Network Connectivity Overview
+# Network Connectivity Overview (Ingress)
 As a short explanation, you can see in the diagram bellow how applications interact with IoT hub.
 
 <img width="823" alt="private-endpoint-intro" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Intro1.png">
