@@ -1,5 +1,5 @@
 # Step1: Configure IP Filtering on Azure IoT hub
-After the initial setup, you have one IoT Hub and two device connected and sending telemetry
+After the initial setup, you have one IoT Hub and two devices connected, sending telemetry
 - the Raspberry Pi simulator online
 - the Node device simulation on the Laptop
 <br> 
