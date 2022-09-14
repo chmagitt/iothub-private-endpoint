@@ -37,6 +37,8 @@ This will trigger the configuration of Private Endpoint in 6 Steps
 <br> 
 <img width="500" alt="endpoint7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint7.png">
 <br> 
+## Check the configuration
+
 At the end of the configuration the "Private access" page of IoT Hub shows the new Private Endpoint.<br>
 When you click on the Endpoint you can watch the "DNS configuration" showing the  new Network Interface connected to the VNET and the two new **private IP addresses** (10.2.1.36 and 10.2.1.37) dynamically allocated in the subnet you have chosen in the previous steps and their associated **private FQDN** (privatelink)  .<br>
 <br> 
@@ -44,7 +46,8 @@ When you click on the Endpoint you can watch the "DNS configuration" showing the
 <br>
 <img width="800" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
 <br>
-### Test
+##Test
+
 Finaly, with this new Private Endpoint, Internet traffic is blocked and the Laptop cannot access to IoT Hub for device telemetry or device management.<br>
 For example the Laptop cannot manage devices from Azure Portal; the menu "Devices" in IoT Hub cannot show the list of the devices and it is not possible to send messages or update device twins.<br>
 <br> 
