@@ -23,7 +23,7 @@ In this example, the Raspverry Pi online will be blocked<br>
 For this configuration, you need to stay on "Networking" menu of IoT Hub
 
 - Check the option "Selected IP range"
-- By default Azure Portal detecte the IP of you Laptop
+- By default Azure Portal detect the IP of you Laptop
 - You can keep this IP, change it or add new IP
 - "Save"
 <img width="700" alt="filter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
@@ -31,7 +31,7 @@ For this configuration, you need to stay on "Networking" menu of IoT Hub
 In the screenshots bellow we can notice that the connection from the Laptop to IoT hub is up and running
 
 - Azure Portal give access to the list of device
-- VS Code cane connect to IoT Hub via Rest API
+- VS Code can connect to IoT Hub via Rest API
 - Device Simulation send telemetry
 - Azure IoT Edge is connected
 <img width="700" alt="filter5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter5.png">
