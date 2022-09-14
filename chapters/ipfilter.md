@@ -1,4 +1,5 @@
 # Step1: Configure IP Filtering on Azure IoT hub
+## IoT Hub default configuration
 After the initial setup, you have one IoT Hub and two devices connected, sending telemetry
 - the Raspberry Pi simulator online
 - the Node device simulation on the Laptop
@@ -12,7 +13,8 @@ This configuration is at IoT Hub level
 - Option "all networks" is checked by default
 <img width="700" alt="filter3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter3.png">
 <br> 
-<br> 
+
+## IP filter configuration
 In order restrict the access to Iot Hub  you can allow only some devices or some application<br>
 In this example, the Raspverry Pi online will be blocked<br>
 <br> 
