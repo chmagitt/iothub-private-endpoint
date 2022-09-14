@@ -1,4 +1,6 @@
-#Step 5: Connection to IoT Hub from a VPN gateway
+# Step 5: Connection to IoT Hub from a VPN gateway
+In the Previous step, the Jump Box is a workaround to provide device management capabilities from Internet user via RDP protocol.<br>
+But this is not a solution to connect IoT Devices which need direct connection to IoT Hub.<br>
 <img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
 <img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
