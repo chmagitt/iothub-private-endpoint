@@ -43,5 +43,5 @@ In the document, you will be able to cover the following secnarios
 - Initial Setup [Step1](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/setup.md).
 - Filter Ip Source addresses [Step2](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/ipfilter.md)
 - Allow only Private Networks with Private Endpoint [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/jumpbox.md)
-- Device Management through a Jump Box [Step4]()
+- Device Management through a Jump Box [Step4](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md)
 - Iot Device connected to IoT Hub through a VPN [Step5](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/vpngateway.md)
