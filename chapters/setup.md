@@ -1,4 +1,4 @@
-# Environment setup
+# Step 1: Environment setup
 
 
 In order to connect and test different scenario with IoT Hub Private Endpoint, four components are necessary
