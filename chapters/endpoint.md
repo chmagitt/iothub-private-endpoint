@@ -7,10 +7,19 @@ Azure Administrator can still configure Azure IoT Hub through Azure Resource Man
 
 <img width="800" alt="endpoint1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint1.png">
 <br>
+
+Create a Private endpoint
+
+- Go to Azure portal, select your IoT Hub
+- Select Neworking in the menu
+- Check the option "Disable" for Public network access <br>
+- Select "Private access"
+- Then "Create a private endpoint"
 <img width="700" alt="endpoint2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint2.png">
 <br>
 <img width="700" alt="endpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
 <br>
+This will trigger the configuration of Private endpoint in 6 Steps<br>
 <img width="500" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
 <br>
 <img width="500" alt="endpoint5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint5.png">
