@@ -5,6 +5,8 @@ In this scenario, an Azure Expressroute or VPN gateway is necessary to connect d
 The example bellow shows our configuration with a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunel.<br>
 This setup gives full access to  IoT Hub for device telemetry and  device management.<br>
 
+<img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
+<br>
 ## Installation of a VPN gateway
 
 - Go to Azure Portal
@@ -16,19 +18,21 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 - Audience:41b23e61-6c1e-4545-b367-cd054e0ed4b4
 - Issuer:https://sts.windows.net/<tenant-id>/
 <br>
-## Connect the VPN client
-
-<img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
-<br>
 <img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
 <br>
 <img width="700" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
 <br>
 
+## Connect VPN client
+You can check the VPN client settings and the VPN gateway 
+
 <img width="300" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
 <br>
 <img width="300" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
 <br>
+  
+## DNS configuration on the Laptop
+  
 <img width="800" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
 <br>
 <img width="800" alt="vpngateway7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw7.png">
