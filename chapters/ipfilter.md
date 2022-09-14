@@ -3,7 +3,7 @@ After the initial setup, you have one IoT Hub and two device connected and sendi
 - the Raspberry Pi simulator online
 - the Node device simulation on the Laptop
 <br> 
-<img width="800" alt="filter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
+<img width="900" alt="filter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
 By default there is no restriction to the IoT Hub public endpoint,<br>
 This configuration is at IoT Hub level
 
