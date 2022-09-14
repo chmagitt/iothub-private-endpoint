@@ -27,8 +27,8 @@ Follow the Quick Start in Azure Documentation to [Send telemetry to IoT Hub](htt
 
 ## VPN client (Laptop)
 Download the latest version of the Azure VPN Client install files using one of the following links:<br>
-Install using Client Install files: https://aka.ms/azvpnclientdownload.<br>
-Install directly, when signed in on a client computer: [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2117554)
+- Install using Client Install files: https://aka.ms/azvpnclientdownload.<br>
+- Install directly, when signed in on a client computer: [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2117554)
 
 ## Azure IoT Edge (Laptop) - it is optionnal
 This requires to run a EFLOW VM on the Laptop if you want to also test IoT Edge in addition to Azure IoT SDK<br>
