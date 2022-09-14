@@ -45,8 +45,7 @@ When you click on the Endpoint you can watch the "DNS configuration" showing the
 <img width="800" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
 <br>
 
-Finaly, with this new Private Endpoint, Internet traffic is blocked and the Laptop cannot access to IoT Hub for device telemetry or device management.<b>
-For example the Laptop cannot manage devices from Azure Portal; the menu "Devices" in IoT Hub cannot show the list of the devices and it is not possible to send messages or update device twins.<br>
+Finaly, with this new Private Endpoint, Internet traffic is blocked and the Laptop cannot access to IoT Hub for device telemetry or device management.For example the Laptop cannot manage devices from Azure Portal; the menu "Devices" in IoT Hub cannot show the list of the devices and it is not possible to send messages or update device twins.<br>
 <br> 
 <img width="700" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
 <br>
