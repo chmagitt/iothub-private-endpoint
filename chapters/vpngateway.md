@@ -24,7 +24,12 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 <br>
 
 ## Connect VPN client
-You can check the VPN client settings and the VPN gateway 
+
+- Download the VPN client from VPN Gateway configuration page in  Azure Portal 
+- Launch the VPN client and choose the downloaded file to automatic fill client settings
+- Choose the Azure VPN  gateway in the list of VPN server
+- Connect
+- You can check the VPN client and the VPN gateway connection prperties 
 
 <img width="300" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
 <br>
