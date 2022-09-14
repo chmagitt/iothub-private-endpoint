@@ -4,11 +4,12 @@ After the initial setup, you have one IoT Hub and two device connected and sendi
 - the Node device simulation on the Laptop
 <br> 
 <img width="700" alt="filter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
-By default there is no restriction to the IoT Hub public endpoint, <br>
-This configuration is at IoT Hub level:
+By default there is no restriction to the IoT Hub public endpoint,<br>
+This configuration is at IoT Hub level
+
 - go to Azure portal, select your IoT Hub,
 - select Neworking in the menu,
-- the option "all networks" is checked by default
+-  the option "all networks" is checked by default
 <img width="700" alt="filter3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter3.png">
 <br> 
 
