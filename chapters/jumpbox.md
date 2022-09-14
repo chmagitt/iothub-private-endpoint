@@ -2,14 +2,15 @@
 In the previous steps, the Private Endpoint prevents IoT device and Device Management application to connect to IoT from Internet.<br>
 But if business requirements need to configure device from some specific machines outside IoT Hub VNET, then it is possible to connect to an Azure VM with RDP protocol, then open a device management application on this VM <br>
 In this configuration, there is no direct connection from Internet to Iot Hub: 
-- NSG (Network Security Group) role is to  filter ingress connection from Internet to the Jump Box VM
-- VNET provides the network connectivity between the Jump Box and IoT Hub
-- Private DNS zone answers to name resolution requests in the VNET to reach IoT hub
+- **NSG (Network Security Group)** role is to  filter ingress connection from Internet to the Jump Box VM
+- **VNET (Virtual Network)** provides the network connectivity between the Jump Box and IoT Hub
+- **Private DNS zone** answers to name resolution requests in the VNET to reach IoT hub
 <br> 
 <img width="800" alt="jump1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump1.png">
 <br>
-The diagram bellow explaines how Private DNS zone manage 
-
+The diagram bellow explains how Private DNS zone works
+In our configuration the Jumpbox sends a DNS query for **<iothub>.azure-devices.net**  to Azure Global DNS for IoT Hub public IP and  finally Private DNS zone resolve the  **<iothub>.privatelink.azure-devices.net** name and send the private IP of IoT Hub to the Jump Box.
+  
 More details on Private DNS zone in the documentation: (https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-dns#virtual-network-workloads-without-custom-dns-server)
 <img width=500" alt="jump2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump2.png">
 <br>
