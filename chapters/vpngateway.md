@@ -1,8 +1,23 @@
 # Step 5: Connection to IoT Hub from a VPN gateway
-In the Previous step, the Jump Box is a workaround to provide device management capabilities from Internet user via RDP protocol.<br>
+In the Previous step, the Jump Box is a workaround to provide device management capabilities for Internet users via RDP protocol.<br>
 But this is not a solution to connect IoT Devices which need direct connection to IoT Hub.<br>
-In this scenario, an Azure Expressroute or VPN gateway is required to connect device to Private Endpoint VNET.<br>
-This chapter will bellow shows the Laptop with device simulation or device management application connected to IoT Hub through and IPSEC tunnel.
+In this scenario, an Azure Expressroute or VPN gateway is necessary to connect devices to Private Endpoint VNET.<br>
+The example bellow shows our configuration with a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunel.<br>
+This setup gives full access to  IoT Hub for device telemetry and  device management.<br>
+
+## Installation of a VPN gateway
+
+- Go to Azure Portal
+- Search  "virtual network gateway" in Azure ressources
+- Add and configure the gateway 
+- Address pool can be any network
+- Choose "OpenVPN(SSL)" tunnel type and "AAD" Authentication type
+- Tenant:https://login.microsoftonline.com/<tenant-id>
+- Audience:41b23e61-6c1e-4545-b367-cd054e0ed4b4
+- Issuer:https://sts.windows.net/<tenant-id>/
+<br>
+## Connect the VPN client
+
 <img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
 <img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
