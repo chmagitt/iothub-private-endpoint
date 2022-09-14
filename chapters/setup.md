@@ -4,9 +4,9 @@
 In order to connect and test different scenario with IoT Hub Private Endpoint, four components are necessary
 
 - **A laptop** (or VM) connected to Internet; in this machine some device simulations and device management applications are required to connect to IoT Hub. The VPN client will provide the Private Network connectivity using an Ipsec tunnel.
-- **An IoT Hub** instance that devices and application will try to connect to
-- **An Azure VPN gateway** to connect VPN client and then create a private network over Internet
-- **A Windows VM** to act as a Jump Box , connected to the same Vnet as IoT Hub Private Endpoint
+- **An IoT Hub** instance that devices and application will try to connect to.
+- **An Azure VPN gateway** to connect VPN client and then create a private network over Internet.
+- **A Windows VM** to act as a Jump Box , connected to the same Vnet as IoT Hub Private Endpoint.
 
 
 <img width="823" alt="private-endpoint-intro" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Setup1.png">
@@ -14,7 +14,7 @@ In order to connect and test different scenario with IoT Hub Private Endpoint, f
 
 # Prepare the environment
 
-For this setup, you need at least an **IoT Hub** , a **Windows VM on Azure**, a Laptop with a **device simulation**n and the **VPN client** 
+For this setup, you need at least an **IoT Hub** , a **Windows VM on Azure**, a Laptop with a **device simulation** and the **VPN client** 
 
 ## IoT Hub
 Install Azure IoT in your subscription.<br>
