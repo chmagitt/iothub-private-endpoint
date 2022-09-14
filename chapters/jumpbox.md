@@ -1,12 +1,12 @@
 ## Connect a Latop to the Jumpbox for Device Management
 
-<img width="700" alt="jump1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/jump1.png">
+<img width="700" alt="jump1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump1.png">
 <br>
-<img width="700" alt="jump2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/jump2.png">
+<img width="700" alt="jump2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump2.png">
 <br>
-<img width="700" alt="jump3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/jump3.png">
+<img width="700" alt="jump3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump3.png">
 <br>
-<img width="700" alt="jump4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/jump4.png">
+<img width="700" alt="jump4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump4.png">
 <br>
 <br>
 
