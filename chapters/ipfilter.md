@@ -1,23 +1,14 @@
 # Configure IP Filtering on Azure IoT hub
 
-<img width="700" alt="ipfilter3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter3.png">
+<img width="700" alt="enpoint1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint1.png">
+<br>
+<img width="700" alt="enpoint2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint2.png">
 <br> 
+<img width="700" alt="enpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
 <br> 
-<img width="700" alt="ipfilter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
+<img width="700" alt="enpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
 <br> 
-<br> 
-<img width="700" alt="ipfilter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
-<br> 
-<br> 
-<img width="700" alt="ipfilter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
-<br> 
-<br> 
-<img width="700" alt="ipfilter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter5.png">
-<br> 
-<br> 
-<img width="700" alt="ipfilter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter6.png">
-<br> 
-<br> 
+
 
 # Setup and Scenarios
 
