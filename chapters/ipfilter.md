@@ -37,7 +37,7 @@ In the screenshots bellow we can notice that the connection from the laptop to I
 <img width="700" alt="filter6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter6.png">
 <br> 
 
-Additional information for IP Filtering on Azure documentation : [USe IP filter](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-ip-filtering)
+Additional information for IP Filtering on Azure documentation : [Use IP filter](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-ip-filtering)
 
 # Setup and Scenarios
 
