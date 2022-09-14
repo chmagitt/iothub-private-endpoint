@@ -1,9 +1,9 @@
 # Step 3:  Enable Private Endpoint for IoT Hub
 For **higher security enforcement** , IoT Hub can grant access  to devices or applications from a private network via a an Azure VNET and block other connections.<br>
-This requires the configuration of a Private Endpoint exposed in a VNET with the associated Private Link to an IoT Hub instance.<br<
-In this example, with Private Endpoint activated, the Laptop cannot connect to IoT Hub from Internet anymore. <br>
-IT means IoT devices or device management applications from Internet are blocked.<br> 
-Azure Administrator can still configure Azure IoT Hub through Azure Resource Manager, in order to change Networking configuration for example.<br>
+This requires the configuration of a Private Endpoint exposed in a VNET with the associated Private Link to an IoT Hub instance.<br>
+<br>
+In the example bellow, with Private Endpoint activated, the Laptop cannot connect to IoT Hub from Internet anymore so  IoT device simulation and device management applications are out of order .<br> 
+At the same time, it is still possible for the Laptop to configure IoT Hub via Azure Resource Manager.<br>
 
 <img width="800" alt="endpoint1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint1.png">
 <br>
