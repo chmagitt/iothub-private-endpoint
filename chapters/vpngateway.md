@@ -52,13 +52,22 @@ More details for Point-to-Site VPN in Microsoft documentation[Create a Site-to-S
 <br> 
 ## DNS configuration on the Laptop
 
-When the VPN tunnel is up and running, the Laptop cannot connect to IoT Hub as he needs to resolve iothub-xyz.privatelink.azure-devices.net (private FQDN of IoT Hub) like the previous step with Jumpbox.<br>
-This can be done wiht Private DNS Zone and a DNS relay but in our example we will edit the host file of Windows Laptop
+When the VPN tunnel is up and running, the Laptop cannot connect to IoT Hub as it needs to resolve iothub-xyz.azure-devices.net (public FQDN of IoT Hub).<br>
+<img width="800" alt="vpngateway9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw9.png">
+<br>
+This can be done wiht Private DNS Zone and a DNS Forwarder (Linux machine)  but in our example we will edit the hosts file of the Laptop so the DNS resolution is hard coded in the OS .
+  
+- Run Notpad  as Administrator
+- Open  file : browse host file folder C:\Windows\System32\drivers\etc
+- Open the file "hosts"
+- Add an entry with the pair: private IP of Iot Hub   public FQDN of IoT Hub 
 <img width="800" alt="vpngateway7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw7.png">
 <br>
-<img width="800" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
+With this configuration the Laptop can connect to IoT Hub
+- The device simulation send telemetry
+- The Device management application in AZure Portal can edit the list of devices
 <br>
-<img width="800" alt="vpngateway9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw9.png">
+<img width="800" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
 <br>
 <br>
 
