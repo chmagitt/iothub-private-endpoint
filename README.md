@@ -39,6 +39,7 @@ Both IoT devices and IoT device Management Applications can connect to IoT Hub t
 - **Private Network**: in blue, it provides a set of technologies to connect to a VNET (Express route, VPN gateway, ..) and then connect to IoT Hub through its Private Endpoint. This blocks all the connections from Internet for a higher level of security. We will also see later the role of “Jump box” to remotely configure IoT Hub.
 <br>
 <br>
+
 # Setup and Scenarios
 
 - Back to [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
