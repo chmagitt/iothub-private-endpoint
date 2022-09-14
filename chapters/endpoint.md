@@ -8,7 +8,7 @@ At the same time, it is still possible for the Laptop to configure IoT Hub via A
 <img width="800" alt="endpoint1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint1.png">
 <br>
 
-Create a Private endpoint
+## Create a Private endpoint
 - Go to Azure portal, select your IoT Hub
 - Select Neworking in the menu
 - Check the option "Disable" for Public network access <br>
@@ -47,6 +47,6 @@ Additional information for Private Endpoints  on Azure documentation : [IoT Hub 
 - [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
 - [Step1](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/setup.md): Initial Setup
 - [Step2](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/ipfilter.md): Filter Ip Source addresses.
-- [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md): Restrict access with Private Endpoint.
+- [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md): Allow only Private Networks with Private Endpoint.
 - [Step4](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/jumpbox.md): Device Management through a Jump Box.
 - [Step5](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/vpngateway.md): Iot Device connected to IoT Hub through a VPN.
