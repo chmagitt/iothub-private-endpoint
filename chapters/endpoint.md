@@ -21,6 +21,9 @@
 <img width="600" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
 <br>
 
+Additional information for Private Endpoints  on Azure documentation : [IoT Hub support for virtual networks with Private Link and Managed Identity](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
+
+
 # Setup and Scenarios
 
 - [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
