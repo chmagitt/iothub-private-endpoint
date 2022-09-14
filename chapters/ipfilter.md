@@ -15,7 +15,7 @@ This configuration is at IoT Hub level
 <br> 
 
 ## IP filter configuration
-In order restrict the access to Iot Hub  you can allow only some devices or some application<br>
+For security enforcement, IoT Hub can rstric access to a whitelist devices or applications based on source IP Address <br>
 In this example, the Raspverry Pi online will be blocked<br>
 <br> 
 <img width="850" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
@@ -28,7 +28,7 @@ For this configuration, you need to stay on "Networking" menu of IoT Hub
 - "Save"
 <img width="700" alt="filter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
 <br> 
-In the screenshots bellow we can notice that the connection from the laptop to IoT hub is up and running
+In the screenshots bellow we can notice that the connection from the Laptop to IoT hub is up and running
 
 - Azure Portal give access to the list of device
 - VS Code cane connect to IoT Hub via Rest API
