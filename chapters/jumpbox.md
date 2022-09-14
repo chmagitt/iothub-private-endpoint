@@ -9,7 +9,7 @@ In this configuration, there is no direct connection from Internet to Iot Hub:
 <img width="800" alt="jump1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump1.png">
 
 ## Private DNS zone
-In our configuration the screenshot bellow shows a "nslookup" from the Jumpbox CMD;  a DNS query for iothub-xyz.azure-devices.net,(public FQDN of IoT Hub)  is sent  to Azure Global DNS (168.63.129.16) , then redirected to Private DNS zone which resolves  iothub-xyz.privatelink.azure-devices.net (private FQDN)  and sends the private IP (10.2.1.36) of IoT Hub to the Jump Box.<br>
+In our configuration the screenshot bellow shows a "nslookup" from the Jumpbox CMD;  a DNS query for iothub-xyz.azure-devices.net,**(public FQDN of IoT Hub)**  is sent  to Azure Global DNS (168.63.129.16) , then redirected to Private DNS zone which resolves  iothub-xyz.privatelink.azure-devices.net **(private FQDN of IoT Hub)**  and sends the private IP (10.2.1.36) of IoT Hub to the Jump Box.<br>
 <br>
 <img width="800" alt="jump3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump3.png">
 <br> 
