@@ -1,6 +1,6 @@
 # Step 4: Connect a Latop to the Jumpbox for Device Management
 In the previous step, the Private Endpoint prevents IoT device and Device Management application to connect to IoT from Internet.<br>
-But if business requirements need to configure device from some specific machines outside IoT Hub VNET, then it is possible to connect to an Azure VM with RDP protocol, then open a device management application on this VM <br>
+But if business requirements need to configure device from some specific machines outside IoT Hub VNET, then it is possible to connect to an Azure VM with **RDP protocol**, then open a device management application on this VM <br>
 In this configuration, there is no direct connection from Internet to Iot Hub: 
 - **NSG (Network Security Group)** role is to  filter ingress connection from Internet to the Jump Box VM
 - **VNET (Virtual Network)** provides the network connectivity between the Jump Box and IoT Hub
