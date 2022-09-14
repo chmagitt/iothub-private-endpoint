@@ -25,10 +25,18 @@ For this configuration, you need to stay on "Networking" menu of IoT Hub
 - save.
 <img width="700" alt="filter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
 <br> 
+In the screenshots bellow we can notice that the connection from the laptop to IoT hub is up and running
+
+- Azure Portal give access to the list of device
+- VS Code cane connect to IoT Hub via Rest API
+- Device Simulation send telemetry
+- Azure IoT Edge is connected
 <img width="700" alt="filter5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter5.png">
 <br> 
 <img width="700" alt="filter6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter6.png">
 <br> 
+
+Additional information for IP Filtering on Azure documentation : [USe IP filter](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-ip-filtering)
 
 # Setup and Scenarios
 
