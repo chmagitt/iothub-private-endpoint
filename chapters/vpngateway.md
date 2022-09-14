@@ -1,6 +1,22 @@
 ## Establish a VPN tunnel between a Laptop and Azure
 
-<img width="700" alt="vpngateway-archi1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
+<img width="700" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
+<br>
+<img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
+<br>
+<img width="700" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
+<br>
+<img width="500" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
+<br>
+<img width="200" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
+<br>
+<img width="300" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
+<br>
+<img width="700" alt="vpngateway7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw7.png">
+<br>
+<img width="700" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
+<br>
+<img width="700" alt="vpngateway9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw9.png">
 <br>
 <br>
 
