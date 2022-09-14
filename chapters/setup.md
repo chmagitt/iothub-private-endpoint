@@ -20,23 +20,24 @@ For this setup, you need at least an **IoT Hub** , a **Windows VM on Azure**, a 
 Install Azure IoT in your subscription.<br>
 Follow the Quick Start in Azure Documentation for [IoT Hub Creation](https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-send-telemetry-iot-hub)<br>
 
-## Laptop: Node JS device simulation
+## Laptop
+### Node JS device simulation
 This application on the Laptop will be white listed, then blocked  then  connected through the VPN gateway to IoT Hub. <br>
 You need to install [NodeJs](https://nodejs.org/en/download/). <br>
 Follow the Quick Start in Azure Documentation to [Send telemetry to IoT Hub](https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-send-telemetry-iot-hub?pivots=programming-language-nodejs)<br>
 
-## Laptop: VPN client
+### VPN client
 Download the latest version of the Azure VPN Client install files using one of the following links:<br>
 - Install using Client Install files: https://aka.ms/azvpnclientdownload.<br>
 - Install directly, when signed in on a client computer: [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2117554)<br>
 
-## Laptop: Visual Studio Code with Azure IoT Extensions - it is optionnal
+### Visual Studio Code with Azure IoT Extensions - it is optionnal
 This it THE ligtweight application for developer which provide interesting feature for this setup
 - Connect to IoT Hub as a 3rd party Device Management application
 - Monitor the telemetry received by IoT Hub
 You can download and install the [VS code Application](https://code.visualstudio.com/Download) then the [Azure IoT Extensions](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools) 
 
-## Laptop: Azure IoT Edge - it is optionnal
+### Azure IoT Edge - it is optionnal
 This requires to run a EFLOW VM on the Laptop if you want to also test IoT Edge in addition to Azure IoT SDK<br>
 Follow the [IoT Edge on Windows installation Guide](https://docs.microsoft.com/en-us/azure/iot-edge/quickstart?view=iotedge-1.4)<br>
 You don't need to deploy module, we can check the connectivity status with IoT Edge without sending data.<br>
