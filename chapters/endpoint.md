@@ -24,7 +24,7 @@ This will trigger the configuration of Private endpoint in 6 Steps and follow th
 <br>
 <img width="500" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
 <br>
-<img width="500" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
+<img width="500" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
 <br>
 <img width="500" alt="endpoint5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint5.png">
 <br>
@@ -36,7 +36,7 @@ This will trigger the configuration of Private endpoint in 6 Steps and follow th
 <br>
 <img width="700" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
 <br>
-<img width="600" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
+<img width="600" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
 <br>
 
 Additional information for Private Endpoints  on Azure documentation : [IoT Hub support for virtual networks with Private Link and Managed Identity](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
