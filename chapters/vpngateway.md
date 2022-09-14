@@ -2,8 +2,8 @@
 In the Previous step, the Jump Box is a workaround to provide device management capabilities for Internet users via RDP protocol.<br>
 But this is not a solution to connect IoT Devices which need direct connection to IoT Hub.<br>
 In this scenario, an Azure Expressroute or VPN gateway is necessary to connect devices to Private Endpoint VNET.<br>
-The example bellow shows our configuration with **Point-to-Site VPN** : a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunel.<br>
-This setup gives full access to  IoT Hub for device telemetry and  device management.<br>
+The example bellow shows our configuration with **Point-to-Site VPN** : a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunnel.<br>
+This setup gives full access to  IoT Hub for device telemetry and  device management.
 
 <img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
