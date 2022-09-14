@@ -14,11 +14,11 @@ At the same time, it is still possible for the Laptop to configure IoT Hub via A
 - Check the option "Disable" for Public network access <br>
 - Select "Private access"
 - Then "Create a private endpoint"
-<img width="700" alt="endpoint2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint2.png">
+<img width="800" alt="endpoint2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint2.png">
 <br> 
-<img width="700" alt="endpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
+<img width="800" alt="endpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
 <br> 
-This will trigger the configuration of Private endpoint in 6 Steps
+This will trigger the configuration of Private Endpoint in 6 Steps
 
 - choose a name for the Endpoint, it proposes a name for the Network Interface
 - target sub-resource is iot-hub
@@ -27,24 +27,28 @@ This will trigger the configuration of Private endpoint in 6 Steps
 - check your configuration and "Create"
 <br> 
 
-<img width="500" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
+<img width="600" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
 <br> 
-<img width="500" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
+<img width="600" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
 <br> 
-<img width="500" alt="endpoint5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint5.png">
+<img width="600" alt="endpoint5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint5.png">
 <br> 
-<img width="500" alt="endpoint6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint6.png">
+<img width="600" alt="endpoint6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint6.png">
 <br> 
-<img width="400" alt="endpoint7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint7.png">
+<img width="500" alt="endpoint7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint7.png">
 <br> 
-At the end of the configuration the "Private access" page of IoT Hub shows the new Private Endpoint<br>
+At the end of the configuration the "Private access" page of IoT Hub shows the new Private Endpoint.<br>
 When you click on the Endpoint you can watch the "DNS configuration" showing the  new Network Interface connected to the VNET and the two new IP address dynamically allocated in the subnet you have chosen in the previous steps.
 <br> 
-<img width="700" alt="endpoint8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint8.png">
+
+<img width="800" alt="endpoint8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint8.png">
 <br>
-<img width="700" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
+<img width="800" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
 <br>
-<img width="600" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
+
+Finaly, with this new Private Endpoint the Laptop cannot access to IoT Hub.<b>
+In Azure Portal for example the menu "Devices" in IoT Hub cannot show the list of the device and it is not possible to send mesages or update device twins.
+<img width="700" alt="endpoint10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint10.png">
 <br>
 
 Additional information for Private Endpoints  on Azure documentation : [IoT Hub support for virtual networks with Private Link and Managed Identity](https://docs.microsoft.com/en-us/azure/iot-hub/virtual-network-support)
