@@ -15,23 +15,29 @@ At the same time, it is still possible for the Laptop to configure IoT Hub via A
 - Select "Private access"
 - Then "Create a private endpoint"
 <img width="700" alt="endpoint2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint2.png">
-<br>
+<br> 
 <img width="700" alt="endpoint3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint3.png">
-<br>
-This will trigger the configuration of Private endpoint in 6 Steps and follow the example bellow
+<br> 
+This will trigger the configuration of Private endpoint in 6 Steps
 - choose a name for the Endpoint, it proposes a name for the Network Interface
-- 
-<br>
+- target sub-resource is iot-hub
+- choose the **same Virtual Network as your W10 VM** which will play the role of Jump Box
+- the two DNS name will be the new FQDN of IoT Hub and egress Service Bus in the VNET
+- check your configuration and "Create"
+<br> 
 <img width="500" alt="endpoint4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint4.png">
-<br>
+<br> 
 <img width="500" alt="endpoint11" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint11.png">
-<br>
+<br> 
 <img width="500" alt="endpoint5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint5.png">
-<br>
+<br> 
 <img width="500" alt="endpoint6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint6.png">
-<br>
+<br> 
 <img width="400" alt="endpoint7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint7.png">
-<br>
+<br> 
+At the end of the configuration the "Private access" page of IoT Hub shows the new Private Endpoint<br>
+When you click on the Endpoint you can watch the "DNS configuration" showing the  new Network Interface connected to the VNET and the two new IP address dynamically allocated in the subnet you have chosen in the previous steps.
+<br> 
 <img width="700" alt="endpoint8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint8.png">
 <br>
 <img width="700" alt="endpoint9" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Endpoint9.png">
