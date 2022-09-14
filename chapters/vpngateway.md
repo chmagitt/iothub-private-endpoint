@@ -34,6 +34,8 @@ It can take time for provisioning<br>
 <img width="700" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
 <br>
 
+More details for Point-to-Site VPN in Microsoft documentation[Create a Site-to-Site connection using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal)  
+
 ## Connect VPN client
 
 - Download the VPN client from VPN Gateway configuration page in  Azure Portal 
@@ -49,7 +51,9 @@ It can take time for provisioning<br>
 <img width="800" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
 <br> 
 ## DNS configuration on the Laptop
-When the VPN tunnel is up and running, the Laptop 
+
+When the VPN tunnel is up and running, the Laptop cannot connect to IoT Hub as he needs to resolve iothub-xyz.privatelink.azure-devices.net (private FQDN of IoT Hub) like the previous step with Jumpbox.<br>
+This can be done wiht Private DNS Zone and a DNS relay but in our example we will edit the host file of Windows Laptop
 <img width="800" alt="vpngateway7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw7.png">
 <br>
 <img width="800" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
