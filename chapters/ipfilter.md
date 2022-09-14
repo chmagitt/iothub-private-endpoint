@@ -3,7 +3,7 @@ After the initial setup, you have one IoT Hub and two device connected and sendi
 - the Raspberry Pi simulator online
 - the Node device simulation on the Laptop
 <br> 
-<img width="700" alt="filter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
+<img width="800" alt="filter1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter1.png">
 By default there is no restriction to the IoT Hub public endpoint,<br>
 This configuration is at IoT Hub level
 
@@ -16,7 +16,7 @@ This configuration is at IoT Hub level
 In order restrict the access to Iot Hub  you can allow only some devices or some application<br>
 In this example, the Raspverry Pi online will be blocked<br>
 <br> 
-<img width="700" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
+<img width="800" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
 <br> 
 For this configuration, you need to stay on "Networking" menu of IoT Hub
 
