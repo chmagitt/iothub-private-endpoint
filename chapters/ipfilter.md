@@ -28,6 +28,7 @@ For this configuration, you need to stay on "Networking" menu of IoT Hub
 - "Save"
 <img width="700" alt="filter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
 <br> 
+
 ## Check the configuration and Test
 In the screenshots bellow we can notice that the connection from the Laptop to IoT hub is up and running
 
