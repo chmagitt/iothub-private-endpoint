@@ -42,7 +42,7 @@ Both IoT devices and IoT device Management Applications can connect to IoT Hub t
 
 # Setup and Scenarios
 
-- Back to [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
+- [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
 - [Step1](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/setup.md): Initial Setup
 - [Step2](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/ipfilter.md): Filter Ip Source addresses.
 - [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md): Allow only Private Networks with Private Endpoint.
