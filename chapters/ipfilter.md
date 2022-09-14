@@ -7,22 +7,23 @@ After the initial setup, you have one IoT Hub and two device connected and sendi
 By default there is no restriction to the IoT Hub public endpoint,<br>
 This configuration is at IoT Hub level
 
-- go to Azure portal, select your IoT Hub,
-- select Neworking in the menu,
-- the option "all networks" is checked by default
+- Go to Azure portal, select your IoT Hub
+- Select Neworking in the menu
+- Option "all networks" is checked by default
 <img width="700" alt="filter3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter3.png">
 <br> 
 <br> 
 In order restrict the access to Iot Hub  you can allow only some devices or some application<br>
 In this example, the Raspverry Pi online will be blocked<br>
+<br> 
 <img width="700" alt="filter2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter2.png">
 <br> 
 For this configuration, you need to stay on "Networking" menu of IoT Hub
 
-- check the option "Selected IP range"
-- by default Azure Portal detecte the IP of you Laptop
-- you can keep this IP, change it or add new IP
-- save.
+- Check the option "Selected IP range"
+- By default Azure Portal detecte the IP of you Laptop
+- You can keep this IP, change it or add new IP
+- "Save"
 <img width="700" alt="filter4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Filter4.png">
 <br> 
 In the screenshots bellow we can notice that the connection from the laptop to IoT hub is up and running
