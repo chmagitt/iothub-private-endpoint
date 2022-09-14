@@ -10,6 +10,7 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 ## Installation of a VPN gateway
 
 #Create the Gateway
+
 - Go to Azure Portal
 - Search  "virtual network gateway " in Azure ressources
 - "Create"
@@ -18,7 +19,8 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 - Virtual network must be the **same Vnet as IoT Hub Private Endpoint**
 - "Create"
 
-#Configure the security credentials of the VPN gateway <br>
+#Configure the security credentials of the VPN gateway
+
 - Address pool can be any network
 - Choose "OpenVPN(SSL)" tunnel type and "AAD" Authentication type
 - Tenant:https://login.microsoftonline.com/<tenant-id>
