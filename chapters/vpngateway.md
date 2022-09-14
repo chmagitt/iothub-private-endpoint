@@ -2,16 +2,22 @@
 In the Previous step, the Jump Box is a workaround to provide device management capabilities for Internet users via RDP protocol.<br>
 But this is not a solution to connect IoT Devices which need direct connection to IoT Hub.<br>
 In this scenario, an Azure Expressroute or VPN gateway is necessary to connect devices to Private Endpoint VNET.<br>
-The example bellow shows our configuration with a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunel.<br>
+The example bellow shows our configuration with **Point-to-Site VPN** : a Latop connected to the IoT Hub Private Endpoint VNET via an IPSEC tunel.<br>
 This setup gives full access to  IoT Hub for device telemetry and  device management.<br>
 
 <img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
 ## Installation of a VPN gateway
-
+#Create the Gatewa
 - Go to Azure Portal
-- Search  "virtual network gateway" in Azure ressources
-- Add and configure the gateway 
+- Search  "virtual network gateway " in Azure ressources
+- "Create"
+- Same Region as the IoT Hub and VNET
+- Generation: Gen2
+- Virtual network must be the **same Vnet as IoT Hub Private Endpoint**
+- "Create"
+
+#Configure the security credentials of the VPN gateway <br>
 - Address pool can be any network
 - Choose "OpenVPN(SSL)" tunnel type and "AAD" Authentication type
 - Tenant:https://login.microsoftonline.com/<tenant-id>
@@ -27,7 +33,7 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 
 - Download the VPN client from VPN Gateway configuration page in  Azure Portal 
 - Launch the VPN client and choose the downloaded file to automatic fill client settings
-- Choose the Azure VPN  gateway in the list of VPN server
+- Choose the Azure VPN  gateway in the list of VPN servers
 - Connect
 - You can check the VPN client and the VPN gateway connection prperties 
 
@@ -35,11 +41,10 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 <br>
 <img width="300" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
 <br>
-  
-## DNS configuration on the Laptop
-  
 <img width="800" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
-<br>
+<br> 
+## DNS configuration on the Laptop
+When the VPN tunnel is up and running, the Laptop 
 <img width="800" alt="vpngateway7" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw7.png">
 <br>
 <img width="800" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
