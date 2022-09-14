@@ -8,7 +8,8 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 <img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 <br>
 ## Installation of a VPN gateway
-#Create the Gatewa
+
+#Create the Gateway
 - Go to Azure Portal
 - Search  "virtual network gateway " in Azure ressources
 - "Create"
