@@ -23,11 +23,15 @@ It can take time for provisioning<br>
 
 ### Configure the security credentials of the VPN gateway
 
+- Open the Virtual network Gateway in Azure Portal
+- Select "Point-to-site configuration"
+- "Configure now"
 - Address pool can be any network
 - Choose "OpenVPN(SSL)" tunnel type and "AAD" Authentication type
 - Tenant:https://login.microsoftonline.com/<tenant-id>
 - Audience:41b23e61-6c1e-4545-b367-cd054e0ed4b4
 - Issuer:https://sts.windows.net/<tenant-id>/
+-"Save"
 <br>
 <img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
 <br>
