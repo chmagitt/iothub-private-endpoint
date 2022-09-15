@@ -28,9 +28,9 @@ It can take time for provisioning<br>
 - "Configure now"
 - Address pool can be any network
 - Choose "OpenVPN(SSL)" tunnel type and "AAD" Authentication type
-- Tenant:https://login.microsoftonline.com/<tenant-id>
+- Tenant:https://login.microsoftonline.com/tenant-id
 - Audience:41b23e61-6c1e-4545-b367-cd054e0ed4b4
-- Issuer:https://sts.windows.net/<tenant-id>/
+- Issuer:https://sts.windows.net/tenant-id/
  <br>
  "Save" the configuration
 
