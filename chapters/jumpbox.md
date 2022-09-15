@@ -15,12 +15,14 @@ In our configuration the screenshot bellow shows a "nslookup" from the Jumpbox C
 <br> 
 <br>
 The diagram bellow explains how Private DNS zone works.<br>
+<br> 
+<img width="500" alt="jump2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump2.png">
+<br>
 More details on Private DNS zone in the documentation [Azure Private Endpoint DNS configuration](https://docs.microsoft.com/en-us/azure/private-link/private-endpoint-dns#virtual-network-workloads-without-custom-dns-server).<br>
 
 ## Test
-The Laptop cannot connect to IoT Hub directly and need to RDP the the Jump box to  manage IoT devices.
-<img width="500" alt="jump2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump2.png">
-<br>
+The Laptop  cannot connect to IoT Hub directly (on the left) and need to open an RDP session to the Jump box to  manage IoT devices (in the right).
+
 <img width="800" alt="jump4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Jump4.png">
 <br>
 <br>
