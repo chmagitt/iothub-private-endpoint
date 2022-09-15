@@ -46,7 +46,7 @@ Both IoT devices and IoT device Management Applications can connect to IoT Hub t
 
 - [Introduction](https://github.com/chmagitt/iothub-private-endpoint#readme)
 - [Step1](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/setup.md): Initial Setup
-- [Step2](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/ipfilter.md): IP Filters with IoT Hub.
-- [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md): IoT Hub PRivate Endpoint
+- [Step2](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/ipfilter.md): IP Filter with IoT Hub.
+- [Step3](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/endpoint.md): IoT Hub Private Endpoint
 - [Step4](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/jumpbox.md): Device Management via a Jump Box.
 - [Step5](https://github.com/chmagitt/iothub-private-endpoint/blob/main/chapters/vpngateway.md): VPN tunnel for IoT Devices
