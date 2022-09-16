@@ -5,7 +5,7 @@ In this scenario, an Azure Expressroute or a VPN gateway is necessary to connect
 The example bellow shows a configuration with **Point-to-Site VPN** : a Latop connected to the IoT Hub Private Endpoint via an IPSEC tunnel.<br>
 This setup gives full access to  IoT Hub for device telemetry and  device management.
 
-<img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
+<img width="400" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 
 ## Installation of a VPN gateway
 
@@ -17,9 +17,9 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 - Same Region as the IoT Hub and VNET
 - Generation: Gen2
 - Virtual network must be the **same Vnet as IoT Hub Private Endpoint**
-- "Create"
-<br> 
+- "Create"<br>
 It can take time for provisioning<br>
+<br> 
 <img width="800" alt="vpngateway10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw10.png">
 <br> 
 
