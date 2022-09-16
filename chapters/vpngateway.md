@@ -5,7 +5,7 @@ In this scenario, an Azure Expressroute or a VPN gateway is necessary to connect
 The example bellow shows a configuration with **Point-to-Site VPN** : a Latop connected to the IoT Hub Private Endpoint via an IPSEC tunnel.<br>
 This setup gives full access to  IoT Hub for device telemetry and  device management.
 
-<img width="400" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
+<img width="800" alt="vpngateway1" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw1.png">
 
 ## Installation of a VPN gateway
 
@@ -20,7 +20,7 @@ This setup gives full access to  IoT Hub for device telemetry and  device manage
 - "Create"<br>
 It can take time for provisioning<br>
 <br> 
-<img width="800" alt="vpngateway10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw10.png">
+<img width="600" alt="vpngateway10" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw10.png">
 <br> 
 
 ### Configure the security credentials of the VPN gateway
@@ -36,9 +36,9 @@ It can take time for provisioning<br>
  <br>
  "Save" the configuration
 
-<img width="700" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
+<img width="600" alt="vpngateway2" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw2.png">
 <br>
-<img width="700" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
+<img width="600" alt="vpngateway3" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw3.png">
 <br>
 
 More details for Point-to-Site VPN in Microsoft documentation: [Create a Site-to-Site connection using the Azure portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-classic-portal)  
@@ -51,9 +51,9 @@ More details for Point-to-Site VPN in Microsoft documentation: [Create a Site-to
 - Connect
 - You can check the VPN client and the VPN gateway connection properties 
 
-<img width="200" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
+<img width="300" alt="vpngateway4" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw4.png">
 <br>
-<img width="200" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
+<img width="300" alt="vpngateway5" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw5.png">
 <br>
 <img width="800" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
 <br> 
