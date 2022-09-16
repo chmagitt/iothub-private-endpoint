@@ -58,7 +58,7 @@ More details for Point-to-Site VPN in Microsoft documentation: [Create a Site-to
 <img width="800" alt="vpngateway6" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw6.png">
 <br> 
   
-## DNS configuration on the Laptop
+## DNS configuration on the Laptop - with hosts files
 
 When the VPN tunnel is up and running, the Laptop cannot connect to IoT Hub as it needs to resolve iothub-xyz.azure-devices.net (public FQDN of IoT Hub).<br>
 <img width="800" alt="vpngateway8" src="https://github.com/chmagitt/iothub-private-endpoint/blob/main/media/Vpngw8.png">
